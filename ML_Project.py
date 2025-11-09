@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
-import pandas as pd
+import pandas as pd 
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -13,6 +13,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.cluster import KMeans  # Added for clustering
+
 
 
 def preprocess_data(controller):
@@ -562,4 +563,5 @@ class TrainPage(tk.Frame):
 if __name__ == "__main__":
     app = MLAnalyzerApp()
     app.mainloop()
+
 
